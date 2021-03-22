@@ -1,15 +1,14 @@
 # Flask Employee Feedback App
 
-> Python Flask Employee Feedback app that takes feedback from the user, save it into the Postgres database and send the email with response user
+> Python Flask Employee Feedback app that takes feedback from the user, save it into the Postgres database and send the email with response user.
 
 ## Quick Start
 
-```bash
-# Add your DATABASE URI in app.py and your mail params in send_mail.py
+### Update your DATABASE URI in app.py and your mail params in send_mail.py.
 
-# Install dependencies
-pipenv shell
-pipenv install
+## Postgres
+To setup post gres please follow this article https://blog.knoldus.com/incorporate-postgres-with-rust/.
+```bash
 
 # Serve on localhost:5000
 python app.py
