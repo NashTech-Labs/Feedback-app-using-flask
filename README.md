@@ -8,6 +8,9 @@
 
 ## Postgres
 To setup post gres please follow this article https://blog.knoldus.com/incorporate-postgres-with-rust/.
+
+
+## Execute
 ```bash
 
 # Serve on localhost:5000
